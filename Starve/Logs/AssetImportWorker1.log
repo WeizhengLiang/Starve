@@ -1,0 +1,265 @@
+Unity Editor version:    2021.3.3f1 (af2e63e8f9bd)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/weizhengliang/Unity_Project_Git/Starve/Starve
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64443
+Successfully changed project path to: /Users/weizhengliang/Unity_Project_Git/Starve/Starve
+/Users/weizhengliang/Unity_Project_Git/Starve/Starve
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 77.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/weizhengliang/Unity_Project_Git/Starve/Starve/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56637
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002804 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.458 seconds
+Domain Reload Profiling:
+	ReloadAssembly (458ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (334ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (69ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001127 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/weizhengliang/Unity_Project_Git/Starve/Starve/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/weizhengliang/Unity_Project_Git/Starve/Starve/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (96.8 KB). Loaded Objects now: 3835.
+Memory consumption went from 241.5 MB to 241.4 MB.
+Total: 2.287750 ms (FindLiveObjects: 0.133458 ms CreateObjectMapping: 0.040583 ms MarkObjects: 2.038708 ms  DeleteObjects: 0.074416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223038.439648 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire4_Strong.prefab
+  artifactKey: Guid(319437fb67fb92841a70ce64636aae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire4_Strong.prefab using Guid(319437fb67fb92841a70ce64636aae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c2e9251b2d2a2ef54eeaf17f813963') in 0.795062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire5_Strong.prefab
+  artifactKey: Guid(3172b52d19aa1fd4e891a549141af8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire5_Strong.prefab using Guid(3172b52d19aa1fd4e891a549141af8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710af3bf242c28491d376d5f0d56a7b6') in 0.007986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire4_Poison.prefab
+  artifactKey: Guid(b3773ccca8d7d774c9bf326cb52a5d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire4_Poison.prefab using Guid(b3773ccca8d7d774c9bf326cb52a5d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fe65588ec64f79af6dca2b5011610b') in 0.006630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire4_Darkness.prefab
+  artifactKey: Guid(feded0465999c1548bda62e4c1777240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire4_Darkness.prefab using Guid(feded0465999c1548bda62e4c1777240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f11d1c8773dfd2cf1f291cd78729c1') in 0.006783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire3.prefab
+  artifactKey: Guid(9d14d7de57db61f41835c680bbfa27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire3.prefab using Guid(9d14d7de57db61f41835c680bbfa27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c57d2d13e3a4b7c0f5b47044eb39ee8') in 0.006362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire_Darkness.prefab
+  artifactKey: Guid(dbba01d57d0ff0740b532e4ebfc24990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire_Darkness.prefab using Guid(dbba01d57d0ff0740b532e4ebfc24990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2428132f18233c3beeedfa6d4e7b5589') in 0.006508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire5_Darkness.prefab
+  artifactKey: Guid(6f4150168c615304fb5f9a45ae0d3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire5_Darkness.prefab using Guid(6f4150168c615304fb5f9a45ae0d3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a5771f83231707d4462cd8c62b7e0b') in 0.006047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire5.prefab
+  artifactKey: Guid(2c1ddc295978c9e459174099968f3ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire5.prefab using Guid(2c1ddc295978c9e459174099968f3ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daf4b91ad3d19b875e0c5fc59d2a568') in 0.005778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Res/粒子火/Prefabs/TinyFire/TinyFire3_Darkness.prefab
+  artifactKey: Guid(9217078230ed7494c9380d30e2eec722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Prefabs/TinyFire/TinyFire3_Darkness.prefab using Guid(9217078230ed7494c9380d30e2eec722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4bdc3fe33161872daf97260a9cbd3c') in 0.009705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.745645 seconds.
+  path: Assets/Res/UI/体力填充.png
+  artifactKey: Guid(3ea1f9e77ba48cb4d96c41d66add749e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/体力填充.png using Guid(3ea1f9e77ba48cb4d96c41d66add749e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3901c8fde1ab1e59b237319374f108') in 0.506364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Res/UI/生命值.png
+  artifactKey: Guid(b50a7e2826807214583e5cbbbed78226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/生命值.png using Guid(b50a7e2826807214583e5cbbbed78226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89045e68e1a6e4c4ef1274ea21f954a5') in 0.021724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/UI/工具网格.png
+  artifactKey: Guid(1b4d615b618560a4e9c29f28471e8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/工具网格.png using Guid(1b4d615b618560a4e9c29f28471e8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c90707d0b8080958f17e2d902edc0d') in 0.049305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Res/UI/肉.png
+  artifactKey: Guid(dacdb6cc7a64ec147a89fa20063faed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/肉.png using Guid(dacdb6cc7a64ec147a89fa20063faed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d70dc67bee38717eee39488339f35a9') in 0.019317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Res/UI/月亮.png
+  artifactKey: Guid(808319d71a2746e47a3160904af14506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/月亮.png using Guid(808319d71a2746e47a3160904af14506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5a19a80cbbc3a6a43c530387f3e352') in 0.089218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Res/UI/背包背景.png
+  artifactKey: Guid(51143f57aa70ab24fac50feb71af8525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/背包背景.png using Guid(51143f57aa70ab24fac50feb71af8525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca02a5da28e24c8c9843a810e41a5bea') in 0.041113 seconds 
